@@ -17,4 +17,13 @@ public class LoopExercisesTests {
         assert loopExercises.sumUntilEven(10) == 6;
         assert loopExercises.sumUntilEven(100) == 6;
     }
+
+    @Test
+    public void testSumBackwardsUntilEven() {
+        LoopExercises loopExercises = new LoopExercises();
+        assert loopExercises.sumUntilEven(39) == 6;
+        assert loopExercises.sumUntilEven(97) == 6;
+        assert loopExercises.sumUntilEven(241) == 6;
+    }
+
 }
