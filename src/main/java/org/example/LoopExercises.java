@@ -35,12 +35,12 @@ public class LoopExercises {
     // (use a while loop with a sum variable and a counter variable)
         int sum = 0;
         int i = n;
-         while (i > 0) {
+        while (i > 0) {
             sum += i;
             if (sum % 2 == 0) {
                 break;
-        }
-            i++;
+            }
+            i--;
         }
         return sum;
     }
